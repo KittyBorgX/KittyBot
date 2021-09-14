@@ -4,10 +4,9 @@
   "description": "Personal Discord Bot!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd src && node index.js",
     "dev": "cd src && nodemon index.js"
-
   },
   "repository": {
     "type": "git",
@@ -19,11 +18,13 @@
   "bugs": {
     "url": "https://github.com/KittyBorgX/KittyBot/issues"
   },
-  "homepage": "https://github.com/KittyBorgX/KittyBot#readme", 
+  "homepage": "https://github.com/KittyBorgX/KittyBot#readme",
   "dependencies": {
+    "aki-api": "^6.0.8",
     "discord.js": "^13.1.0",
+    "discord.js-akinator": "^3.1.1",
     "dotenv": "^10.0.0",
     "got": "^11.8.2",
-	  "ytsr": "3.5.3"
+    "ytsr": "3.5.3"
   }
 }
