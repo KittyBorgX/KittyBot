@@ -1,0 +1,2 @@
+# KittyBorg
+Personal Discord Bot!
