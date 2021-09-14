@@ -7,10 +7,10 @@ const { Client } = require("discord.js");
 
 module.exports = async (client) => {
   client.user.setPresence({
-    status: "online",
+    status: "dnd",
     activities: [
       {
-        name: "with discord.js v13",
+        name: ">help | Made by KittyBorgX#1415",
         type: "PLAYING",
       },
     ],
