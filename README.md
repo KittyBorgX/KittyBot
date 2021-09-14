@@ -6,7 +6,7 @@ My Personal Discord Bot!
 
 Steps:
 
-- Fill out the `example.env` in `src/` and rename it to .env
+- Fill out the `example.env` in `src/` and rename it to `.env`
 - Run : `npm install` to install the dependencies
 
 #### For Development [ After Installing the Dependencies ]:
