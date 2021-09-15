@@ -22,8 +22,5 @@ module.exports = {
     message.reply({
       content: `Pong!!`,
     });
-    const command = require(`../commands/${dir}/${file}`);
-
-    message.channel.send(command.name);
   },
 };
