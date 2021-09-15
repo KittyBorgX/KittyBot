@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/KittyBorgX/KittyBot#readme",
   "dependencies": {
+    "@stuntstorm/discord-games": "^1.1.19",
     "aki-api": "^6.0.8",
+    "discord-minigames": "^1.2.2",
     "discord.js": "^13.1.0",
     "discord.js-akinator": "^3.1.1",
     "dotenv": "^10.0.0",
