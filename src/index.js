@@ -21,5 +21,7 @@ require("./handlers/client")(client);
 require("./handlers/events")(client);
 require("./handlers/commands")(client);
 // require("./handlers/slash_commands")(client);
-
+process.on("unhandledRejection", (error) => {
+  console.error("Unhandled promise rejection:", error);
+});
 client.login(process.env.TOKEN);
