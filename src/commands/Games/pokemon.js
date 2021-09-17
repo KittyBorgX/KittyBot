@@ -14,7 +14,7 @@ module.exports = {
   },
   aliases: ["guesspoke"],
 
-  /**
+  /*
    *
    * @param {Client} client
    * @param {Message} message
