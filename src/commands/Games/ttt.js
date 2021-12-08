@@ -1,9 +1,9 @@
 const { Permissions, Client, Message, MessageEmbed } = require("discord.js");
-const { ConnectFour } = require('djs-games')
+const { TicTacToe } = require('djs-games')
 
 module.exports = {
-  name: "connect4",
-  description: "Play snake!",
+  name: "ttt",
+  description: "Play ttt!",
   perms: {
     client: [
       Permissions.FLAGS.SEND_MESSAGES,
@@ -12,7 +12,7 @@ module.exports = {
     ],
     user: [Permissions.FLAGS.SEND_MESSAGES],
   },
-  aliases: ["cn4"],
+  aliases: [],
 
   /**
    *
@@ -21,11 +21,14 @@ module.exports = {
    * @param {STring[]} args
    */
   execute: async (client, message, args) => {
-    const game = new ConnectFour({
-      message: message,
-      player1: '🔴',
-      player2: '🟡',
-    })
-    game.start()
+    const game = new TicTacToe({
+        message: message,
+        xEmote: '❌', // The Emote for X
+        oEmote: '0️⃣', // The Emote for O
+        xColor: 'PRIMARY',
+        oColor: 'PRIMARY', // The Color for O
+        embedDescription: 'Tic Tac Toe', // The Description of the embed
+      })
+      game.start()
   },
 };

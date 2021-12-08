@@ -8,6 +8,7 @@ const client = new Client({
     "GUILD_MEMBERS",
     "GUILD_MESSAGES",
     "GUILD_MESSAGE_REACTIONS",
+    "GUILD_VOICE_STATES"
   ],
   allowedMentions: {
     parse: ["everyone", "roles", "users"],
